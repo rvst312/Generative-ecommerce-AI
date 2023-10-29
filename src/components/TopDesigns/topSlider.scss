@@ -1,0 +1,29 @@
+.popular-designs {
+
+    .container-top {
+        width: 100%;
+        max-width: 1150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .left {
+            h2 {
+                font-size: 35px;
+            }
+        }
+
+        .right {
+
+            button {
+                margin-left: 10px;
+                border-radius: 50px;
+
+                svg {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

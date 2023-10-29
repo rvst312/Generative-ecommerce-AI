@@ -1,0 +1,18 @@
+.popular-designs .container-top {
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.popular-designs .container-top .left h2 {
+  font-size: 35px;
+}
+.popular-designs .container-top .right button {
+  margin-left: 10px;
+  border-radius: 50px;
+}
+.popular-designs .container-top .right button svg {
+  padding: 5px;
+}/*# sourceMappingURL=topSlider.css.map */

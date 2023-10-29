@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+header .left .logo {
+  font-size: 35px;
+}
+header .right nav ul {
+  display: flex;
+  gap: 15px;
+}
+header .right nav ul li button {
+  padding: 10px 20px;
+  background-color: #515151;
+}
+header .right nav ul li a {
+  height: 35px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=header.css.map */

@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import Header from "../components/header/header.astro";
+import Slider from "../components/sectionOne/slider.astro";
+import CallToaAction from "../components/sectionTwo/callToAction.astro";
 ---
 
 <Layout
@@ -9,7 +11,9 @@ import Card from "../components/Card.astro";
 	favicon="/favicon.svg"
 >
 	<main>
-
+		<Header />
+		<Slider />
+		<CallToaAction />
 	</main>
 </Layout>
 

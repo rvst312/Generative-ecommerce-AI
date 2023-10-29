@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    .left {
+        .logo {
+            font-size: 35px;
+        }
+    }
+    .right {
+        nav {
+            ul {
+                display: flex;
+                gap: 15px;
+                li {
+                    button {
+                        padding: 10px 20px;
+                        background-color: #515151;
+                    }
+                    a{
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,6 @@
 .popular-designs {
+    display: flex;
+    flex-direction: column;
 
     .container-top {
         width: 100%;
@@ -24,6 +26,29 @@
                     padding: 5px;
                 }
             }
+        }
+    }
+}
+
+.slider-wrapper {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+
+    .slider {
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+
+        
+
+        .card {
+            width: 280px;
+
+            img {
+                width: 100%;
+            }
+
         }
     }
 }

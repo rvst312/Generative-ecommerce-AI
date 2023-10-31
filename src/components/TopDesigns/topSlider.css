@@ -23,12 +23,10 @@
 
 .slider-wrapper {
   display: flex;
-  justify-content: start;
   margin-top: 20px;
 }
 .slider-wrapper .slider {
   display: flex;
-  overflow: scroll;
   gap: 10px;
 }
 .slider-wrapper .slider .card {
@@ -36,4 +34,5 @@
 }
 .slider-wrapper .slider .card img {
   width: 100%;
+  border-radius: 20px;
 }/*# sourceMappingURL=topSlider.css.map */

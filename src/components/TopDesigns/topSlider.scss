@@ -32,21 +32,18 @@
 
 .slider-wrapper {
     display: flex;
-    justify-content: start;
     margin-top: 20px;
 
     .slider {
         display: flex;
-        overflow: scroll;
         gap: 10px;
-
-        
 
         .card {
             width: 280px;
 
             img {
                 width: 100%;
+                border-radius: 20px;
             }
 
         }

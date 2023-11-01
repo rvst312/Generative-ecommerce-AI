@@ -1,0 +1,26 @@
+---
+import '../form/form.css';
+
+interface Props{
+    formTitle: string;
+    formButton: string;
+}
+
+const { formTitle } = Astro.props;
+const { formButton } = Astro.props;
+---
+
+<section class="form-wrapped">
+    <div class="form-gen">
+        <div class="form">
+            <h1>
+                {formTitle}
+            </h1>
+            <form action="">
+                <input type="email" name="" placeholder="Email"/>
+                <input type="password" name="" placeholder="password"/>
+                <button>{formButton}</button>
+            </form>
+        </div>
+    </div>
+</section>

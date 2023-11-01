@@ -7,7 +7,7 @@ interface Props {
 
 const { title } = Astro.props;
 const { description } = Astro.props;
-const { favicon } = Astro.props;
+const { favicon = '/favicon.svg'} = Astro.props;
 ---
 
 <!doctype html>
@@ -17,6 +17,7 @@ const { favicon } = Astro.props;
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href={favicon} />
+		<script src="https://unpkg.com/scrollreveal"></script>
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>

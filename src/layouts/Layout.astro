@@ -2,12 +2,12 @@
 interface Props {
 	title: string;
 	description: string;
-	favicon: string;
+	favicon?: string;
 }
 
 const { title } = Astro.props;
 const { description } = Astro.props;
-const { favicon } = Astro.props;
+const { favicon = '/favicon.svg'} = Astro.props;
 ---
 
 <!doctype html>
@@ -17,6 +17,7 @@ const { favicon } = Astro.props;
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href={favicon} />
+		<script src="https://unpkg.com/scrollreveal"></script>
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -25,4 +26,29 @@ const { favicon } = Astro.props;
 	</body>
 </html>
 
-<style is:global></style>
+<style is:global>
+	@font-face {
+		font-family: "Principal-font";
+		src: url("/fonts/Franchise-Free-Bold.ttf");
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #fff;
+		border: none;
+	}
+
+	button{
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	body{
+		background-color: #282828;
+	}
+
+</style>

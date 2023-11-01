@@ -1,0 +1,53 @@
+.form-wrapped {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 30px 20px;
+}
+.form-wrapped .form-gen {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/public/img/prueba.png");
+  height: 65vh;
+  min-height: 600px;
+  border-radius: 20px;
+}
+.form-wrapped .form-gen .form {
+  padding: 20px;
+  background-color: #fff;
+  width: 45%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapped .form-gen .form h1 {
+  font-size: 55px;
+  color: #282828;
+}
+.form-wrapped .form-gen .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.form-wrapped .form-gen .form form input {
+  margin-top: 20px;
+  border: #d9d9d9 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  color: #282828;
+}
+.form-wrapped .form-gen .form form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #282828;
+}
+.form-wrapped .form-gen .form form button:hover {
+  background-color: #d7d7d7;
+}/*# sourceMappingURL=form.css.map */

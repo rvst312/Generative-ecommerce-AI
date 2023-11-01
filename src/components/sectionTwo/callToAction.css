@@ -1,0 +1,30 @@
+.call-to-action {
+  width: 100%;
+  background-color: #909090;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.call-to-action .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1150px;
+}
+.call-to-action .container .left {
+  padding: 25px;
+}
+.call-to-action .container .left h2 {
+  font-size: 35px;
+}
+.call-to-action .container .left button {
+  padding: 10px 20px;
+  background-color: #515151;
+}
+.call-to-action .container .right img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=callToAction.css.map */

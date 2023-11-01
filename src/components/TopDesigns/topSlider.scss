@@ -1,0 +1,51 @@
+.popular-designs {
+    display: flex;
+    flex-direction: column;
+
+    .container-top {
+        width: 100%;
+        max-width: 1150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .left {
+            h2 {
+                font-size: 35px;
+            }
+        }
+
+        .right {
+
+            button {
+                margin-left: 10px;
+                border-radius: 50px;
+
+                svg {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+.slider-wrapper {
+    display: flex;
+    margin-top: 20px;
+
+    .slider {
+        display: flex;
+        gap: 10px;
+
+        .card {
+            width: 280px;
+
+            img {
+                width: 100%;
+                border-radius: 20px;
+            }
+
+        }
+    }
+}

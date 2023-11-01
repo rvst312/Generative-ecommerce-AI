@@ -1,0 +1,38 @@
+---
+import "../../components/TopDesigns/topSlider.css";
+
+interface Props {
+    image?: string;
+}
+
+const { image } = Astro.props;
+---
+
+<div class="slider-wrapper">
+    <div class="slider">
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+        <div class="card">
+            <img src={image} alt="" />
+        </div>
+    </div>
+</div>

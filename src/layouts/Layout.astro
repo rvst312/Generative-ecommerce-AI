@@ -7,7 +7,7 @@ interface Props {
 
 const { title } = Astro.props;
 const { description } = Astro.props;
-const { favicon = '/favicon.svg'} = Astro.props;
+const { favicon = "/favicon.svg" } = Astro.props;
 ---
 
 <!doctype html>
@@ -42,13 +42,19 @@ const { favicon = '/favicon.svg'} = Astro.props;
 		border: none;
 	}
 
-	button{
+	button {
 		border-radius: 20px;
 		cursor: pointer;
 	}
 
-	body{
+	body {
 		background-color: #282828;
 	}
 
+	textarea {
+		outline: none;
+	}
+	input {
+		outline: none;
+	}
 </style>

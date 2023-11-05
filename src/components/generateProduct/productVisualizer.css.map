@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"productVisualizer.css"}
+{"version":3,"sources":["productVisualizer.scss","productVisualizer.css"],"names":[],"mappings":"AAAA;EACI,8CAAA;EACA,WAAA;EACA,YAAA;EACA,kCAAA;EACA,sBAAA;EACA,mBAAA;ACCJ","file":"productVisualizer.css"}

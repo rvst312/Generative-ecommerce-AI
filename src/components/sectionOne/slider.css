@@ -10,14 +10,14 @@ section .container {
   display: flex;
   flex-direction: column;
   margin: 0px 15px 0px 15px;
-  gap: 15px;
+  gap: 8px;
 }
 section .container .top {
   display: flex;
   width: 100%;
   height: 70vh;
   max-height: 600px;
-  gap: 15px;
+  gap: 8px;
 }
 section .container .top .one {
   width: 33.3%;

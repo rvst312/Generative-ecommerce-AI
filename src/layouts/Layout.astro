@@ -8,6 +8,7 @@ interface Props {
 const { title } = Astro.props;
 const { description } = Astro.props;
 const { favicon = "/favicon.svg" } = Astro.props;
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <!doctype html>
@@ -18,43 +19,49 @@ const { favicon = "/favicon.svg" } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href={favicon} />
 		<script src="https://unpkg.com/scrollreveal"></script>
+		<link rel="stylesheet" href="/css/tooltip.css" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
+
 	<body>
 		<slot />
+		<style is:global>
+			@font-face {
+				font-family: "Principal-font";
+				src: url("/fonts/Franchise-Free-Bold.ttf");
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+				font-family: Arial, Helvetica, sans-serif;
+				color: #fff;
+				border: none;
+			}
+
+			button {
+				border-radius: 20px;
+				cursor: pointer;
+			}
+
+			body {
+				background-color: #282828;
+			}
+
+			textarea {
+				outline: none;
+			}
+			input {
+				outline: none;
+			}
+		</style>
 	</body>
 </html>
-
-<style is:global>
-	@font-face {
-		font-family: "Principal-font";
-		src: url("/fonts/Franchise-Free-Bold.ttf");
-	}
-
-	* {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		text-decoration: none;
-		font-family: Arial, Helvetica, sans-serif;
-		color: #fff;
-		border: none;
-	}
-
-	button {
-		border-radius: 20px;
-		cursor: pointer;
-	}
-
-	body {
-		background-color: #282828;
-	}
-
-	textarea {
-		outline: none;
-	}
-	input {
-		outline: none;
-	}
-</style>

@@ -1,0 +1,119 @@
+.text-grid-wrapper {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-grid-wrapper .text {
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.grid-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.grid-wrapper .grid {
+  width: 100%;
+  max-width: 1150px;
+}
+.grid-wrapper .grid .one-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  height: 40vh;
+  max-height: 300px;
+}
+.grid-wrapper .grid .one-row .left {
+  width: 30%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .one-row .right {
+  width: 70%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .two-row {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  height: 60vh;
+  max-height: 500px;
+}
+.grid-wrapper .grid .two-row .left {
+  width: 66.7%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .two-row .right {
+  width: 33.3%;
+}
+.grid-wrapper .grid .two-row .right .top {
+  height: 50%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.grid-wrapper .grid .two-row .right .bottom {
+  height: calc(50% - 10px);
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .three-row {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  height: 40vh;
+  max-height: 300px;
+}
+.grid-wrapper .grid .three-row .left {
+  width: 33.3%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .three-row .middle {
+  width: 33.3%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .three-row .right {
+  width: 33.3%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .four-row {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  height: 60vh;
+  max-height: 500px;
+}
+.grid-wrapper .grid .four-row .left {
+  width: 33.3%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper .grid .four-row .right {
+  width: 66.7%;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+.grid-wrapper button {
+  margin-top: 20px;
+  padding: 8px 15px;
+  color: #282828;
+}
+.grid-wrapper button:hover {
+  background-color: #b6b6b6;
+}/*# sourceMappingURL=gridPopularProducts.css.map */
